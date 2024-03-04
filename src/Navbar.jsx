@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { HashLink as Link } from 'react-router-hash-link';
 import Sidebar from "./Sidebar";
+import Button from "./Button";
 
 function Navbar() {
 
@@ -17,11 +18,11 @@ function Navbar() {
           <div className=" sm:p-4 flex items-center sm:space-x-4 space-x-2  ">
             <img
               className="sm:w-12 sm:h-12 h-8 w-8 sm:ml-8  ml-2 rounded-full sm:mt-1"
-              src="/images/me.jpg"
+              src="/images/healingPic.jpg"
             />
 
             <p className="font-sans sm:mt-3 sm:mb-3 sm:text-lg text-sm font-bold sm:font-extrabold mt-1  tracking-wider ">
-              SURENDER SINGH
+              HEALING HANDS
             </p>
           </div>
           <GiHamburgerMenu
@@ -30,37 +31,54 @@ function Navbar() {
           />
         </div>
 
-        <div className=" sm:space-x-16 mr-16  hidden sm:block    ">
-          <div className=" space-x-10 ">
+        <div className=" sm:space-x-16 mr-16  hidden sm:block ">
+          <div className=" space-x-10 flex mt-4">
             <Link
               to="#Home"
               smooth
-              className="font-sans  text-base font-bold hover:text-yellow-400 tracking-wider"
+              className="font-sans  text-base font-bold hover:text-purple-700 tracking-wider"
             >
               HOME
             </Link>
             <Link
               to="#Aboutme"
               smooth
-              className=" font-sans  text-base font-bold hover:text-yellow-400 tracking-wider"
+              className=" font-sans  text-base font-bold hover:text-purple-700 tracking-wider"
             >
               ABOUT
             </Link>
-            <Link
-              to="#Projects"
-              smooth
-              className="font-custom   text-base font-bold hover:text-yellow-400 tracking-wider"
+            {/* <Link
+              to="/live"
+              className="font-custom font-extrabold text-base hover:text-yellow-400 tracking-wider"
             >
-              PROJECTS
-            </Link>
+              LIVE 
+            </Link> */}
+            {/* <span class="relative flex h-3 w-3">
+  <span class="animate-ping absolute inline-flex h-full w-full -ml-6 rounded-full bg-blue-500 opacity-75"></span>
+  <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500 -ml-6"></span>
+</span> */}
             <Link
               to="#Social"
               smooth
-              className="font-custom  text-base font-bold hover:text-yellow-400 tracking-wider"
+              className="font-custom  text-base font-bold hover:text-purple-700 tracking-wider"
             >
               CONTACT
             </Link>
+
+            <Link
+            to="#donation"
+            smooth
+            className="font-custom  text-base font-bold hover:text-purple-700 tracking-wider">
+              DONATION
+            </Link>
+
+            {/* <div className="ml-4 mb-2">
+              <Link to='/registerPage'><Button>Register</Button></Link>
+            
+            </div> */}
+          
           </div>
+         
         </div>
       </div>
      

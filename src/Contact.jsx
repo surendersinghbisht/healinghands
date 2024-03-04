@@ -8,7 +8,7 @@ function Contact() {
 
 
   return (
-<div className="static">
+<div className="static" id="contact">
 <div class=" h-full static sm:h-full sm:pt-6 p-4 sm:px-80  bg-[url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg')]">
 <div className="flex flex-col items-center space-y-4 mt-6 sm:pt-12  static">
 <p className="font-extrabold font-custom tracking-wide  text-3xl  sm:text-4xl  text-center sm:text-center ">CONTACT</p>

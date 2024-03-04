@@ -5,7 +5,7 @@ import Skills from "./Skills";
 function Myskills() {
   return (
     <div>
-
+{/* 
 <div className="p-4 pt-16  sm:pt-0 sm:p-0 ">
 <p className="font-sans text-2xl  font-semibold text-left">My Skills</p>
 
@@ -22,7 +22,7 @@ function Myskills() {
 <Skills>Github</Skills>
 <Skills>Tailwind  css</Skills>
 <Skills>Responsive Design </Skills>
-</div></div>
+</div></div> */}
 </div>
 
   );
